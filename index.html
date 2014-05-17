@@ -24,12 +24,12 @@
           <form id="form">
             <div class="input-box">
               Initial Velocity:
-              <input type="text" id="v-input">
+              <input type="number" min="0" max="100" placeholder="50" id="v-input">
               <span class="hint">enter a value between 0 to 100 m/s</span>
             </div>
             <div class="input-box">
               Angle:
-              <input type="text" id="angle-input">
+              <input type="number" min="0" max="90" placeholder="45" id="angle-input">
               <span class="hint">enter a value between 0&deg; and 90&deg;</span>
             </div>
             <button id="simulate">Simulate!</button>
