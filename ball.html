@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Ball</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <h1 class="title">The Ball</h1>
+    <div id="wrapper">
+      <div class="form-wrap">
+          <form id="form">
+            <div class="input-box">
+              Initial Velocity:
+              <input type="text" id="v-input">
+              <span class="hint">enter a value between 0 to 100 m/s</span>
+            </div>
+            <div class="input-box">
+              Angle:
+              <input type="text" id="angle-input">
+              <span class="hint">enter a value between 0&deg; and 90&deg;</span>
+            </div>
+            <button id="simulate">Simulate!</button>
+          </form>
+      </div>
+      <div class="graph-wrap">
+        <div id="graph">
+          <div id="ball"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
