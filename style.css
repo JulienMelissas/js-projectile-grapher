@@ -56,9 +56,25 @@ body {
 
 .title {
   text-align: center;
-  margin: 50px 0;
+  margin: 50px 0 20px;
   font-size: 35px;
   font-weight: bold;
+}
+
+.subtitle {
+  text-align: center;
+  color: #6F6F6F;
+  margin-bottom: 50px;
+}
+
+.subtitle a {
+  color: #A24A4A;
+  text-decoration: none;
+}
+
+.subtitle a:hover {
+  color: #A24A4A;
+  border-bottom: 3px solid #A24A4A;
 }
 
 #wrapper {
@@ -90,7 +106,7 @@ body {
 }
 
 .hint {
-  color: gray;
+  color: #868686;
   font-size: 12px;
   font-style: italic;
 }
