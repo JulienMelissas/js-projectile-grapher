@@ -54,12 +54,12 @@ $(document).ready(function() {
 
     function calculatePosition(i) {
       t = i*(max_time_100);
-      console.log("After " + t + " seconds:");
+      console.log("After " + t.toFixed(2) + " seconds:");
       x = findX(angle, v, t);
       y = findY(g, angle, v, t);
 
-      console.log(x);
-      console.log(y);
+      console.log("X: " + x + " meters");
+      console.log("Y: " + y + " meters");
 
       console.log("");
 
